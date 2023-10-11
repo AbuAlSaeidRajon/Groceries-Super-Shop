@@ -39,5 +39,39 @@ footer {
     color: #333;
     text-align: center;
     padding: 10px;
-    position
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label,
+.contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #0c7cd1;
 }
